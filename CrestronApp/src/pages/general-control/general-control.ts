@@ -51,6 +51,7 @@ export class GeneralControlPage {
   public Aux1Color: string = '#70c9e3';
   public PowerColor: string = '#70c9e3';
   public AutoLockColor: string = '#70c9e3';
+  public isPowerOn: boolean = false;
 
   constructor(private app: App, private platform: Platform, private navCtrl: NavController, private navParam: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, private remoteCtrlService: RemoteControlProvider, private authenticationService: AuthenticationProvider, private ProjectorApiService: ProjectorApiProvider, private geolocation: Geolocation, private hotspot: Hotspot, private networkInterface: NetworkInterface, private idle: Idle, private localNotifications: LocalNotifications, private diagnostic: Diagnostic, private openNativeSettings: OpenNativeSettings, private loadingCtrl: LoadingController, private backgroundMode: BackgroundMode, private viewCtrl: ViewController) {
 
@@ -423,6 +424,7 @@ export class GeneralControlPage {
 
   statusPower = false;
   onChangePower() {
+    this.isPowerOn = !this.isPowerOn;
     if(this.statusPower){
       this.PowerOn();
     }
@@ -529,9 +531,9 @@ export class GeneralControlPage {
     }
   }
 
-  statusProjectorMute = false;
-  onChangeProjectorMute() {
-    if(this.statusProjectorMute){
+  statusMuteProjector = false;
+  onChangeMuteProjector() {
+    if(this.statusMuteProjector){
       this.ProjectorMute();
     }
     else{

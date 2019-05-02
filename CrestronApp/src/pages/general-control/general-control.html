@@ -3,12 +3,12 @@
   <div class="col2">
     <ion-card class="offStatus" *ngIf="!PowerColor">
       <ion-card-content>
-        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>
+        <ion-label (click)="systemToggle()">System is {{ isPowerOn ? 'On' : 'Off' }}</ion-label>
       </ion-card-content>
     </ion-card>
     <ion-card class="onStatus" *ngIf="PowerColor">
       <ion-card-content>
-        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>
+        <ion-label (click)="systemToggle()">System is {{ isPowerOn ? 'On' : 'Off' }}</ion-label>
       </ion-card-content>
     </ion-card>
   </div>
@@ -16,7 +16,7 @@
     <div class="col">
       <ion-item>
         <ion-label>Power On/Off</ion-label>
-        <ion-toggle [(ngModel)]="statusPower" (ionChange)="onChangePower()"></ion-toggle>
+        <ion-toggle [(ngModel)]="statusPower" (ionChange)="onChangePower()" [checked]="isPowerOn"></ion-toggle>
       </ion-item>
     </div>
   </div>
@@ -40,7 +40,7 @@
     <div class="col">
       <ion-item>
         <ion-label>Projector Mute/Unmute</ion-label>
-        <ion-toggle [(ngModel)]="statusProjectorMute" (ionChange)="onChangeProjectorMute"></ion-toggle>
+        <ion-toggle [(ngModel)]="statusMuteProjector" (ionChange)="onChangeMuteProjector()"></ion-toggle>
       </ion-item>
     </div>
   </div>

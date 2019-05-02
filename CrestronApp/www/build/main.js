@@ -7,8 +7,8 @@ webpackJsonp([2],{
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PwaScannerPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__general_control_general_control__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_projector_api_projector_api__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__general_control_general_control__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_projector_api_projector_api__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__ = __webpack_require__(309);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__node_modules_Custom_modules_barcode_scanner_master_app_js_vendor_qrscan_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -225,11 +225,11 @@ webpackEmptyAsyncContext.id = 129;
 
 var map = {
 	"../pages/login/login.module": [
-		334,
+		335,
 		1
 	],
 	"../pages/pwa-scanner/pwa-scanner.module": [
-		335,
+		334,
 		0
 	]
 };
@@ -249,17 +249,17 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 173:
+/***/ 186:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScanPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__ = __webpack_require__(187);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pwa_scanner_pwa_scanner__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__general_control_general_control__ = __webpack_require__(88);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_projector_api_projector_api__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__general_control_general_control__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_projector_api_projector_api__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -391,8 +391,8 @@ var ScanPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RemoteControlProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(308);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -463,24 +463,24 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__ = __webpack_require__(174);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common_http__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_http__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_hotspot__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_network_interface__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common_http__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_http__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_geolocation__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_hotspot__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_network_interface__ = __webpack_require__(175);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_local_notifications__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_diagnostic__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_open_native_settings__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_background_mode__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_diagnostic__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_open_native_settings__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_background_mode__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__app_component__ = __webpack_require__(327);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_login_login__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_scan_scan__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_general_control_general_control__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_scan_scan__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_general_control_general_control__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_pwa_scanner_pwa_scanner__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_remote_control_remote_control__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_authentication_authentication__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_projector_api_projector_api__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_authentication_authentication__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_projector_api_projector_api__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ng_idle_keepalive__ = __webpack_require__(332);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -530,8 +530,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__angular_http__["c" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_15__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/pwa-scanner/pwa-scanner.module#PwaScannerPageModule', name: 'PwaScannerPage', segment: 'pwa-scanner', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/pwa-scanner/pwa-scanner.module#PwaScannerPageModule', name: 'PwaScannerPage', segment: 'pwa-scanner', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_23__ng_idle_keepalive__["a" /* NgIdleKeepaliveModule */].forRoot()
@@ -622,17 +622,17 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 51:
+/***/ 50:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjectorApiProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(302);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
@@ -715,10 +715,10 @@ var ProjectorApiProvider = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_diagnostic__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_open_native_settings__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__scan_scan__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_authentication_authentication__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_diagnostic__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_open_native_settings__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__scan_scan__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_authentication_authentication__ = __webpack_require__(95);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -851,25 +851,25 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 88:
+/***/ 85:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GeneralControlPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__ = __webpack_require__(175);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_hotspot__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_network_interface__ = __webpack_require__(177);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_idle_core__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_diagnostic__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_open_native_settings__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_background_mode__ = __webpack_require__(187);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__ = __webpack_require__(171);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_hotspot__ = __webpack_require__(174);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_network_interface__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ng_idle_core__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_diagnostic__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_open_native_settings__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_background_mode__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_login_login__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_local_notifications__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_remote_control_remote_control__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_authentication_authentication__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_projector_api_projector_api__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_authentication_authentication__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_projector_api_projector_api__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -937,10 +937,11 @@ var GeneralControlPage = /** @class */ (function () {
         this.Aux1Color = '#70c9e3';
         this.PowerColor = '#70c9e3';
         this.AutoLockColor = '#70c9e3';
+        this.isPowerOn = false;
         this.statusPower = false;
         this.statusProjector = false;
         this.statusScreen = false;
-        this.statusProjectorMute = false;
+        this.statusMuteProjector = false;
         this.platform.registerBackButtonAction(function () {
             var alertMessage = _this.alertCtrl.create({
                 title: 'Do you want to exit the app?',
@@ -1036,19 +1037,6 @@ var GeneralControlPage = /** @class */ (function () {
                         'username': _this.username,
                         'roomID': _this.roomID,
                         'signalID': _this.signalID,
-                        'systemStatus': _this.systemStatus
-                    });
-                }
-            });
-        }
-    };
-    GeneralControlPage.prototype.getySystemStatus = function () {
-        var _this = this;
-        if (!this.platform.is('cordova')) {
-            this.ProjectorApiService.getSystemStatus(this.roomID).subscribe(function (UsageData) {
-                console.log("UsageData.CurrentUser = " + UsageData.CurrentUser + "this.username = " + _this.username);
-                if (UsageData.CurrentUser != _this.username) {
-                    _this.app.getRootNav().push(GeneralControlPage_1, {
                         'systemStatus': _this.systemStatus
                     });
                 }
@@ -1303,6 +1291,7 @@ var GeneralControlPage = /** @class */ (function () {
         }
     };
     GeneralControlPage.prototype.onChangePower = function () {
+        this.isPowerOn = !this.isPowerOn;
         if (this.statusPower) {
             this.PowerOn();
         }
@@ -1390,8 +1379,8 @@ var GeneralControlPage = /** @class */ (function () {
             this.printStatus("Screen is already down");
         }
     };
-    GeneralControlPage.prototype.onChangeProjectorMute = function () {
-        if (this.statusProjectorMute) {
+    GeneralControlPage.prototype.onChangeMuteProjector = function () {
+        if (this.statusMuteProjector) {
             this.ProjectorMute();
         }
         else {
@@ -1526,7 +1515,7 @@ var GeneralControlPage = /** @class */ (function () {
     var GeneralControlPage_1;
     GeneralControlPage = GeneralControlPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-general-control',template:/*ion-inline-start:"C:\Users\ahmad\Desktop\CrestronApp\Crestron-joseph_main\Crestron-joseph_main\CrestronApp\src\pages\general-control\general-control.html"*/'<ion-content class="bg">\n  <h5 class="roomName">Welcome to {{roomID}}</h5>\n  <div class="col2">\n    <ion-card class="offStatus" *ngIf="!PowerColor">\n      <ion-card-content>\n        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>\n      </ion-card-content>\n    </ion-card>\n    <ion-card class="onStatus" *ngIf="PowerColor">\n      <ion-card-content>\n        <ion-label (click)="systemToggle()">System is {{systemStatus}}</ion-label>\n      </ion-card-content>\n    </ion-card>\n  </div>\n  <div class="row">\n    <div class="col">\n      <ion-item>\n        <ion-label>Power On/Off</ion-label>\n        <ion-toggle [(ngModel)]="statusPower" (ionChange)="onChangePower()"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col">\n      <ion-item>\n        <ion-label>Projector On/Off</ion-label>\n        <ion-toggle [(ngModel)]="statusProjector" (ionChange)="onChangeProjector()"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col">\n      <ion-item>\n        <ion-label>Screen Up/Down</ion-label>\n        <ion-toggle [(ngModel)]="statusScreen" (ionChange)="onChangeScreen()"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col">\n      <ion-item>\n        <ion-label>Projector Mute/Unmute</ion-label>\n        <ion-toggle [(ngModel)]="statusProjectorMute" (ionChange)="onChangeProjectorMute"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">        \n	`<div class="col2">\n      <ion-card class="offStatus" *ngIf="!PCColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/pc.png">\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="PCColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/pc.png">\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n	  <div class="col2">\n      <ion-card class="offStatus" *ngIf="!HDMIColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="HDMIColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n	  <div class="col2">\n      <ion-card class="offStatus" *ngIf="!VGAColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/vga.png">\n          <ion-label (click)="VGA()" class="buttonLabel">\n            Visualizer\n            <br>VGA\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="VGAColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/vga.png">\n          <ion-label (click)="VGA()" class="buttonLabel">\n            Visualizer\n            <br>VGA\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>    \n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col2">\n      <ion-card class="offStatus" *ngIf="!WirelessPresenterColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/remote.png">\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n            Wireless\n            <br>Presenter\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="WirelessPresenterColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/remote.png">\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n            Wireless\n            <br>Presenter\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>	\n  </div>\n  <div class="row" *ngIf="statusPower">\n	  <div class="col2">\n      <ion-card class="offStatus" *ngIf="!Aux1Color">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="Aux1Color">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col col-50">\n        <ion-card class="offStatus" *ngIf="!AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="AutoLock()" class="buttonLabel">\n              Auto\n              <br>Lock\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n        <ion-card class="onStatus" *ngIf="AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="AutoLock()" class="buttonLabel">\n              Auto\n              <br>Lock\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n      </div>\n      <div class="col col-50">\n        <ion-card class="offStatus" *ngIf="!AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="UnlockAV()" class="buttonLabel">\n              Unlock\n              <br>AV\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n        <ion-card class="onStatus" *ngIf="AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="UnlockAV()" class="buttonLabel">\n              Unlock\n              <br>AV\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n      </div>    \n  </div>'/*ion-inline-end:"C:\Users\ahmad\Desktop\CrestronApp\Crestron-joseph_main\Crestron-joseph_main\CrestronApp\src\pages\general-control\general-control.html"*/
+            selector: 'page-general-control',template:/*ion-inline-start:"C:\Users\ahmad\Desktop\CrestronApp\Crestron-joseph_main\Crestron-joseph_main\CrestronApp\src\pages\general-control\general-control.html"*/'<ion-content class="bg">\n  <h5 class="roomName">Welcome to {{roomID}}</h5>\n  <div class="col2">\n    <ion-card class="offStatus" *ngIf="!PowerColor">\n      <ion-card-content>\n        <ion-label (click)="systemToggle()">System is {{ isPowerOn ? \'On\' : \'Off\' }}</ion-label>\n      </ion-card-content>\n    </ion-card>\n    <ion-card class="onStatus" *ngIf="PowerColor">\n      <ion-card-content>\n        <ion-label (click)="systemToggle()">System is {{ isPowerOn ? \'On\' : \'Off\' }}</ion-label>\n      </ion-card-content>\n    </ion-card>\n  </div>\n  <div class="row">\n    <div class="col">\n      <ion-item>\n        <ion-label>Power On/Off</ion-label>\n        <ion-toggle [(ngModel)]="statusPower" (ionChange)="onChangePower()" [checked]="isPowerOn"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col">\n      <ion-item>\n        <ion-label>Projector On/Off</ion-label>\n        <ion-toggle [(ngModel)]="statusProjector" (ionChange)="onChangeProjector()"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col">\n      <ion-item>\n        <ion-label>Screen Up/Down</ion-label>\n        <ion-toggle [(ngModel)]="statusScreen" (ionChange)="onChangeScreen()"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col">\n      <ion-item>\n        <ion-label>Projector Mute/Unmute</ion-label>\n        <ion-toggle [(ngModel)]="statusMuteProjector" (ionChange)="onChangeMuteProjector()"></ion-toggle>\n      </ion-item>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">        \n	`<div class="col2">\n      <ion-card class="offStatus" *ngIf="!PCColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/pc.png">\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="PCColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/pc.png">\n          <ion-label (click)="PC()" class="buttonLabel">PC</ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n	  <div class="col2">\n      <ion-card class="offStatus" *ngIf="!HDMIColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="HDMIColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/hdmi.png">\n          <ion-label (click)="HDMI()" class="buttonLabel">HDMI</ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n	  <div class="col2">\n      <ion-card class="offStatus" *ngIf="!VGAColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/vga.png">\n          <ion-label (click)="VGA()" class="buttonLabel">\n            Visualizer\n            <br>VGA\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="VGAColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/vga.png">\n          <ion-label (click)="VGA()" class="buttonLabel">\n            Visualizer\n            <br>VGA\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>    \n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col2">\n      <ion-card class="offStatus" *ngIf="!WirelessPresenterColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/remote.png">\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n            Wireless\n            <br>Presenter\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="WirelessPresenterColor">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/remote.png">\n          <ion-label (click)="WirelessPresenter()" class="buttonLabel">\n            Wireless\n            <br>Presenter\n          </ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>	\n  </div>\n  <div class="row" *ngIf="statusPower">\n	  <div class="col2">\n      <ion-card class="offStatus" *ngIf="!Aux1Color">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n        </ion-card-content>\n      </ion-card>\n      <ion-card class="onStatus" *ngIf="Aux1Color">\n        <ion-card-content>\n          <img class="imageButton" src="assets/imgs/auxcable.png">\n          <ion-label (click)="Aux1()" class="buttonLabel">AUX</ion-label>\n        </ion-card-content>\n      </ion-card>\n    </div>\n  </div>\n  <div class="row" *ngIf="statusPower">\n    <div class="col col-50">\n        <ion-card class="offStatus" *ngIf="!AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="AutoLock()" class="buttonLabel">\n              Auto\n              <br>Lock\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n        <ion-card class="onStatus" *ngIf="AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="AutoLock()" class="buttonLabel">\n              Auto\n              <br>Lock\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n      </div>\n      <div class="col col-50">\n        <ion-card class="offStatus" *ngIf="!AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="UnlockAV()" class="buttonLabel">\n              Unlock\n              <br>AV\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n        <ion-card class="onStatus" *ngIf="AutoLockColor">\n          <ion-card-content>\n            <img class="imageButton" src="assets/imgs/autolock.png">\n            <ion-label (click)="UnlockAV()" class="buttonLabel">\n              Unlock\n              <br>AV\n            </ion-label>\n          </ion-card-content>\n        </ion-card>\n      </div>    \n  </div>'/*ion-inline-end:"C:\Users\ahmad\Desktop\CrestronApp\Crestron-joseph_main\Crestron-joseph_main\CrestronApp\src\pages\general-control\general-control.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* App */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */], __WEBPACK_IMPORTED_MODULE_11__providers_remote_control_remote_control__["a" /* RemoteControlProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_authentication_authentication__["a" /* AuthenticationProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_projector_api_projector_api__["a" /* ProjectorApiProvider */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_hotspot__["a" /* Hotspot */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_network_interface__["a" /* NetworkInterface */], __WEBPACK_IMPORTED_MODULE_5__ng_idle_core__["a" /* Idle */], __WEBPACK_IMPORTED_MODULE_10__ionic_native_local_notifications__["a" /* LocalNotifications */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_diagnostic__["a" /* Diagnostic */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_open_native_settings__["a" /* OpenNativeSettings */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_8__ionic_native_background_mode__["a" /* BackgroundMode */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ViewController */]])
     ], GeneralControlPage);
@@ -1537,13 +1526,13 @@ var GeneralControlPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 94:
+/***/ 95:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthenticationProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(51);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
